@@ -8,7 +8,7 @@ pygame.init()
 pygame.display.set_caption('Kuubikud')
 screen = pygame.display.set_mode((1500, 1500))
 BASICFONT = pygame.font.Font(None, 30)
-# On the screen rectangles of a fixed size of 30*30...
+# 30x30 kuubikud
 MUST, VALGE, SININE, PUNANE = (0, 0, 0), (255, 255, 255), (0, 128, 255), (255,0,0)
 TEXTCOLOR = VALGE
 kuubikud = pygame.sprite.Group()
