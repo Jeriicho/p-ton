@@ -2,7 +2,7 @@
 import random
 import time
 import pygame
-# create a screen of size say 800 * 800.
+# määra 800 * 800 ekraani suuruseks.
 screen_width, screen_height = 1500, 1500
 pygame.init()
 pygame.display.set_caption('Kuubikud')
